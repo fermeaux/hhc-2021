@@ -37,6 +37,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
+    '@nuxtjs/onesignal',
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content'
@@ -54,5 +55,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  oneSignal: {
+    init: {
+      appId: '6a857184-d08b-4443-8572-e6f1cc719080',
+      allowLocalhostAsSecureOrigin: true,
+      welcomeNotification: {
+          disable: true
+      }
+    }
   }
 }
