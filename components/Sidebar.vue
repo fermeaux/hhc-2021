@@ -33,7 +33,9 @@
         </template>
       </nav>
     </div>
-    <slot />
+    <div class="container">
+      <slot />
+    </div>
   </div>
 </template>
 
