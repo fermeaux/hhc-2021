@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-content :document="information" />
+    <nuxt-content :document="information" class="prose-sm sm:prose my-4" />
   </div>
 </template>
 
