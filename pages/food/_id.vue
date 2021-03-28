@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-content :document="foodWorkshop" />
+    <nuxt-content :document="foodWorkshop" class="prose-sm sm:prose my-4" />
   </div>
 </template>
 
@@ -8,7 +8,6 @@
 export default {
   async asyncData ({ $content, params }) {
     const foodWorkshop = await $content(`food-workshops/${params.id}`).fetch()
-    console.log(foodWorkshop)
     return { foodWorkshop }
   }
 }
