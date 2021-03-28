@@ -3,7 +3,7 @@
     <div class="flex flex-col w-full md:w-64 text-gray-700 bg-white flex-shrink-0">
       <div class="flex-shrink-0 px-8 py-4 flex flex-row items-center justify-between">
         <NuxtLink to="/" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg focus:outline-none focus:shadow-outline">
-          Ma santé à coeur
+          Ma santé à coeur ❤️
         </NuxtLink>
         <button class="rounded-lg md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
           <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
